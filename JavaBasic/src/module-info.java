@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author letgetit
+ *
+ */
+module JavaBasic {
+}
