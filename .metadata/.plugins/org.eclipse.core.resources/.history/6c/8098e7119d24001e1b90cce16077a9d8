@@ -1,0 +1,33 @@
+package basic_section3_test3;
+
+import java.util.*;
+
+public class Student {
+
+	private String studentName;
+	private int studentNum;
+	ArrayList<Subject> subjectList ;
+	
+	public Student(String studentName, int studentNum) {
+		this.studentName = studentName;
+		this.studentNum = studentNum;
+	}
+	
+	public void addSubject(String name, int score) {
+		Subject subject = new Subject();
+		subject.setSubjectName(name);
+		subject.setSubjectScore(score);
+		subjectList.add(subject);
+	}
+	
+	public void showStudentInfo() {
+		int sum = 0;
+		
+		for(int i=0; i<subjectList.size(); i++) {
+			
+		}
+	}
+	
+	
+	
+}

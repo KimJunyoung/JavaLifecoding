@@ -1,0 +1,14 @@
+package basic_section3_bus;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student studennJ = new Student("James",5000);
+		Student studennT = new Student("Tomas",10000);
+
+		
+		
+	}
+
+}

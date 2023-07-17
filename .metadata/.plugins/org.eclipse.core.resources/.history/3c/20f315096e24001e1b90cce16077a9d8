@@ -1,0 +1,19 @@
+package basic_section3_1;
+
+public class Student {
+
+	int studentId;
+	String studentName;
+	Subject korean = new Subject("국어");
+	Subject math = new Subject("수학");
+	
+	
+	public Student () {};
+	public Student (int studentID, String studentName) {
+		this.studentId = studentID;
+		this.studentName = studentName;
+	}
+
+
+
+}

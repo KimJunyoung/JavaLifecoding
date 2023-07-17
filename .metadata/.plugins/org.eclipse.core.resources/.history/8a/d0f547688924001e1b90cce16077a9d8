@@ -1,0 +1,10 @@
+package basic_section3_7;
+
+public class Book {
+
+	private String title;
+	private String author;
+	
+	
+
+}

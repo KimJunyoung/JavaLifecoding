@@ -1,0 +1,14 @@
+package basic_section3_1;
+
+public class Subject {
+
+	
+	public Subject() {}:
+	public Subject(int score, String subjectName) {
+		this.score = score;
+		this.subjectName = subjectName;
+	}
+
+	int score;
+	String subjectName;
+}

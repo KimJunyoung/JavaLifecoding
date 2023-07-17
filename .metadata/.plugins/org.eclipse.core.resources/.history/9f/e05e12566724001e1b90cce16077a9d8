@@ -1,0 +1,15 @@
+package basic_section3;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Student student = new Student();
+		student.studentName = "김준영";
+		student.address = "남구";
+		student.showStudentInfo();
+	}
+
+}

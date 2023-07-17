@@ -1,0 +1,6 @@
+package basic_section3_bus;
+
+public class Bus {
+
+	private int busNum ;
+}

@@ -1,0 +1,12 @@
+package basic_section3_test1;
+
+public class Car {
+	
+	private static int carNum = 10001;
+	
+	
+	
+	public void createCar() {
+		carNum ++;
+	}
+}

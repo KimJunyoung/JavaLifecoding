@@ -1,0 +1,17 @@
+package basic_section3;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Student student = new Student(); // 인스턴스 생성  
+		student.studentName = "김준영";
+		student.address = "남구";
+		student.showStudentInfo();
+		
+		System.out.println(student); // student 는 참조변수 (변수에 주소값을 저장)
+	}
+
+}

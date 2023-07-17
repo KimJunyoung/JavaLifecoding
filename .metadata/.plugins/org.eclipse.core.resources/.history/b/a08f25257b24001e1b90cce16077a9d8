@@ -1,0 +1,23 @@
+package basic_section3_4;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person person1 = new Person();
+		person1.setEmployessName("김준영");
+		
+		System.out.println(person1.serialNum);
+		
+		Person person2 = new Person();
+		person2.setEmployessName("이한준");
+		person2.serialNum++;
+		
+		System.out.println(person1.serialNum);
+		System.out.println(person2.serialNum);
+		
+
+	}
+
+}

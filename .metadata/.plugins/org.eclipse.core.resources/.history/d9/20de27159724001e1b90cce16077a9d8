@@ -1,0 +1,24 @@
+package basic_section3_test1;
+
+public class Factory {
+
+	private static Factory instance ;
+	
+	
+	private Factory () {
+		
+	}
+	
+	public static void getInstance() {
+		if(instance == null) {
+			Factory instance = new Factory();
+		}
+		
+		System.out.println(instance);
+	}
+	
+	
+	
+	
+	
+}

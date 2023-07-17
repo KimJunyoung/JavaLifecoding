@@ -1,0 +1,26 @@
+package basic_section3_test1;
+
+public class Person {
+
+	private int personName ;
+	private int myMoney ;
+	
+	public Person () {
+		this.myMoney = 10000;
+	}
+
+	public int getPersonName() {
+		return personName;
+	}
+
+	public void setPersonName(int personName) {
+		this.personName = personName;
+	};
+	
+	public void takeCoffee() {
+		
+	}
+	
+	
+	
+}

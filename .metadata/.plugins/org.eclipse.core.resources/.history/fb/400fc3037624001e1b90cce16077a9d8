@@ -1,0 +1,7 @@
+package basic_section3_bus;
+
+public class Student {
+
+	private String studentName ;
+	
+}

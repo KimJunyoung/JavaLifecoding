@@ -1,0 +1,21 @@
+package basic_section3_bus;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student studentJ = new Student("James",5000);
+		Student studentT = new Student("Tomas",10000);
+
+		
+		studentJ.takeBus(new Bus(100));
+		studentJ.showInfo();
+		studentJ.takeBus(new Bus(100));
+		studentJ.showInfo();
+		
+		studentT.takeSubway(new Subway(120));
+		
+		
+	}
+
+}

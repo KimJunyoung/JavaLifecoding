@@ -1,0 +1,11 @@
+package basic_section3_1;
+
+public class Student {
+
+	int studentId;
+	String studentName;
+	
+	int koreanScore;
+	int mathScore;
+
+}
