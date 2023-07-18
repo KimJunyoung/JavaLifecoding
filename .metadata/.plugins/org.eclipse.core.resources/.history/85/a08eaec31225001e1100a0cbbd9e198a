@@ -1,0 +1,18 @@
+package basic_section5_1;
+
+public class BestCustomer extends Customer{
+
+	
+	private int agentID;
+	double salesRatio;
+	
+	public BestCustomer() {
+		customerGrade = "VIP";
+		salesRatio = 0.05;
+		bonusRatio = 0.1;
+	}
+	
+	public int getAgentId() {
+		return agentID;
+	}
+}

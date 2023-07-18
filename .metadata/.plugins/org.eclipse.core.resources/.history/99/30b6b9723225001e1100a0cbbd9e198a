@@ -1,0 +1,12 @@
+package basic_section5_7.client.web;
+
+import java.io.FileInputStream;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) {
+	
+		FileInputStream fis = new FileInputStream("db.properties");
+	}
+
+}

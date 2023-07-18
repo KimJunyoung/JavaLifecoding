@@ -1,0 +1,20 @@
+package basic_section5_test;
+
+public class Player {
+
+	
+	private PlayerLevel level ;
+
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
+	
+	public String upgradeLevel(PlayerLevel playerlevel) {
+		
+	}
+	
+}

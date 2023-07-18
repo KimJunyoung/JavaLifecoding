@@ -1,0 +1,15 @@
+package basic_section5_1;
+
+public class GoldCustomer extends Customer{
+	
+	private int agentID;
+	double salesRatio;
+	
+	public GoldCustomer (int customerId, String customerName) {
+		super(customerId,customerName);
+		customerGrade = "Gold";
+		bonusRatio = 0.02;
+		salesRatio = 0.1;
+		
+	}
+}

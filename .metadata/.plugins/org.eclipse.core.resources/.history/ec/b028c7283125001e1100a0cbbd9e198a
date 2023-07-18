@@ -1,0 +1,7 @@
+package basic_section5_7.domain.userinfo.dao;
+
+public interface UserInfoDao {
+
+	void insertUserInfo(UserInfo userInfo);
+	void updateUserInfo(UserInfo userInfo);
+}

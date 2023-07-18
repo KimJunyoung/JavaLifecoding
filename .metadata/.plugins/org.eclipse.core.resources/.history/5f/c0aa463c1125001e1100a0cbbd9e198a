@@ -1,0 +1,21 @@
+package basic_section5_1;
+
+public class CostomerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	Customer customerLee = new Customer();
+	customerLee.setCustomerName("김준영");
+	customerLee.setCustomerId(10010);
+	customerLee.bonusPoint = 1000;
+	System.out.println(customerLee.showCustomerInfo());
+
+	BestCustomer customerKim = new BestCustomer();
+	customerKim.setCustomerName("현동근");
+	customerKim.setCustomerId(10020);
+	customerKim.bonusPoint = 10000;
+	
+	}
+
+}

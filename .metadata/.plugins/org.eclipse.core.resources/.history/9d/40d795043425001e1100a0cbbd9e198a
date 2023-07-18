@@ -1,0 +1,38 @@
+package basic_section5_7.client.web;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import basic_section5_7.domain.userinfo.UserInfo;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) throws IOException {
+	
+		FileInputStream fis = new FileInputStream("db.properties");
+		
+		
+		Properties prop = new Properties();
+		prop.load(fis);
+		String dbType = prop.getProperty("DBTYPE");
+		
+		UserInfo userinfo = new UserInfo();
+		userinfo.setUserId("user01");
+		userinfo.setPasswd("!@#$%12345");
+		userinfo.setUserName("Junyoung");
+		
+		
+		
+		
+		if(dbType.equals("ORACLE")){
+			
+		}else if(dbType.equals("MYSQL")){
+			
+		}else {
+			System.out.println("Not support");
+		}
+	}
+
+}

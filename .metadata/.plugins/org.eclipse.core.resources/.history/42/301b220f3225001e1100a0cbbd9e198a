@@ -1,0 +1,10 @@
+package basic_section5_7.client.web;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

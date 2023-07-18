@@ -1,0 +1,6 @@
+package basic_section5_6;
+
+public interface Calc {
+
+	
+}

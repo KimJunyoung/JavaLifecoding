@@ -1,0 +1,20 @@
+package basic_section5_9;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Customer customer = new Customer();
+		customer.buy();
+		customer.sell();
+		customer.sayHello();
+		
+		Buy buyer = customer;
+		buyer.buy();
+		
+		Sell seller = customer;
+		seller.sell();
+		
+	}
+
+}

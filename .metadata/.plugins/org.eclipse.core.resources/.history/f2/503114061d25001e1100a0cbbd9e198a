@@ -1,0 +1,11 @@
+package basic_section5_1;
+
+public class GoldCustomer extends Customer{
+
+	
+	public GoldCustomer (int customerId, String customerName) {
+		super(customerId,customerName);
+		
+		
+	}
+}

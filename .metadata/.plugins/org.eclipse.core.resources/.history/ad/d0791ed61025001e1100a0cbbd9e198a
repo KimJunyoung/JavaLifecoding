@@ -1,0 +1,14 @@
+package basic_section5_1;
+
+public class CostomerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	Customer customerLee = new Customer();
+	customerLee.setCustomerName("김준영");
+	customerLee.setCustomerId(10010);
+
+	}
+
+}

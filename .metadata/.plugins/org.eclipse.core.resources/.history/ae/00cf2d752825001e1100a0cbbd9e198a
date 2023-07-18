@@ -1,0 +1,16 @@
+package basic_section5_4;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Computer deskTop = new DeskTop();
+		deskTop.display();
+		deskTop.turnOff();
+		
+		Computer noteBook = new MyNoteBook();
+		noteBook.display();
+	}
+
+}

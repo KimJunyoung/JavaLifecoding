@@ -1,0 +1,14 @@
+package basic_section5_7.client.web;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) throws IOException {
+	
+		FileInputStream fis = new FileInputStream("db.properties");
+	}
+
+}

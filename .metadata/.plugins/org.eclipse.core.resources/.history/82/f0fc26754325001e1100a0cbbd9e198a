@@ -1,0 +1,8 @@
+package basic_section5_test;
+
+public class Player {
+
+	
+	private String level ;
+	
+}

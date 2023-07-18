@@ -1,0 +1,10 @@
+package basic_section5_10;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Queue bookQue = new BookShelf();
+		
+	}
+
+}

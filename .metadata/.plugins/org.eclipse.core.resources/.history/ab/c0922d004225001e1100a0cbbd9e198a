@@ -1,0 +1,14 @@
+package basic_section5_test;
+
+public abstract class AdvancedLevel {
+	
+	public abstract void run();
+	public abstract void jump();
+	public abstract void turn();
+	
+	public void showLevelMessage() {
+		run();
+		jump();
+		turn();
+	}
+}

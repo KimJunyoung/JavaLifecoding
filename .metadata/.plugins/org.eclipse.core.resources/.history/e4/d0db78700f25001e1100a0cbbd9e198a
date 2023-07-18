@@ -1,0 +1,10 @@
+package basic_section5_1;
+
+public class Customer {
+	private int customerId;
+	private String customerName;
+	private String customerGrade;
+	
+	int bonusPoint;
+	double bonusRatio;
+}

@@ -1,0 +1,27 @@
+package basic_section5_test;
+
+public class AdvancedLevel extends PlayerLevel {
+
+	@Override
+	public void run() {
+				
+	}
+
+	@Override
+	public void jump() {
+				
+	}
+
+	@Override
+	public void turn() {
+				
+	}
+
+	@Override
+	public void showLevelMessage() {
+
+	}
+	
+	
+
+}

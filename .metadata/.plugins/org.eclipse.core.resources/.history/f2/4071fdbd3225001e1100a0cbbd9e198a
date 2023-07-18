@@ -1,0 +1,22 @@
+package basic_section5_7.client.web;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) throws IOException {
+	
+		FileInputStream fis = new FileInputStream("db.properties");
+		
+		Properties prop = new Properties();
+		
+		System.out.println(prop.load(fis));
+		
+		String dbType = prop.getProperty("DBTYPE");
+		System.out.println(dbType);
+	}
+
+}

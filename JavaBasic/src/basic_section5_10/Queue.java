@@ -1,0 +1,9 @@
+package basic_section5_10;
+
+public interface Queue {
+
+	void enQueue(String title);
+	String deQueue();
+	
+	int getSize();
+}

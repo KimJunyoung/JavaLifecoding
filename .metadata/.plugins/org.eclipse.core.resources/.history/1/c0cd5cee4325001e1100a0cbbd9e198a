@@ -1,0 +1,26 @@
+package basic_section5_test;
+
+public class Player {
+
+	
+	private PlayerLevel level ;
+
+
+	
+	public PlayerLevel getLevel() {
+		return level;
+	}
+
+
+
+	public void setLevel(PlayerLevel level) {
+		this.level = level;
+	}
+
+
+
+	public void upgradeLevel(PlayerLevel playerlevel) {
+		level = playerlevel;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package basic_section5_test;
+
+public class PlayerTest {
+
+	public static void main(String[] args) {
+		Player player = new Player();
+		PlayerLevel playerlevel1 = new BeginnerLevel();
+		PlayerLevel playerlevel2 = new AdvancedLevel();
+		PlayerLevel playerlevel3 = new BeginnerLevel();
+		
+		player.setLevel(playerlevel1);
+		player.play();
+		player.upgradeLevel(playerlevel2);
+		
+	}
+
+}
